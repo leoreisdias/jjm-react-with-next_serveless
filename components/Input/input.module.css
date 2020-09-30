@@ -1,0 +1,41 @@
+ .inputBlock{
+    position: relative;
+    margin-top: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+ .inputBlock label{
+    font-size: 1.8rem;
+}
+
+ .inputBlock input{
+    width: 100%;
+    height: 5.6rem;
+    margin-top: 0.8rem;
+    border-radius: 0.8rem;
+    background: var(--color-input-background);
+    border: 1px solid var(--color-line-in-white);
+    outline: 0;
+    padding: 0 1.6rem;
+    font: 1.6rem Archivo;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.6);
+    -moz-box-shadow:    0px 1px 5px 0px rgba(50, 50, 50, 0.6);
+    box-shadow:         0px 1px 5px 0px rgba(50, 50, 50, 0.6);
+}
+
+
+@media(min-width:700px){
+
+    .inputBlock input{
+        width: 50rem;
+        margin-bottom: 9.2rem;
+    }
+
+
+}

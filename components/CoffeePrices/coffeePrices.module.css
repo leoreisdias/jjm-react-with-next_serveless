@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Courgette&family=Fenix&family=Poppins:wght@400;700&display=swap');
+
+.coffee{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#2b5876      ,#ffd89b );
+
+    border-radius: 15px;
+
+    -webkit-box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+.valueofcoffee{
+    background: var(--color-line-in-white);
+    font: 700 2.4rem Archivo;
+    color: var(--color-text-title);
+    margin-bottom: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    border-bottom: 1px solid var(--color-text-complement);
+}
+
+.coffeeInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+.coffeeInfo span{
+    font: 400 2rem 'Bebas Neue';
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.coffeeInfo span strong{
+    font-size: 3.6rem;
+    font-family: Archivo;
+    color: white;
+}
+
+.coffeeInfo strong{
+    font: 700 3.2rem Poppins;
+    color: white;
+}
+
+.iconCoffee{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconCoffee strong{
+    margin-left: 2rem;
+    font-size: 1.6rem;
+    color: black;
+}
+
+.attentionCoffeeMsg{
+    display: flex;
+    margin-top: 2rem;
+    align-self: center;
+    font: 400 1.4rem Archivo;
+    justify-content: center;
+    color: black;
+}
+
+@media(min-width:400px){
+
+    .coffeeInfo span strong{
+        font-size: 4rem;
+    }
+
+    .coffeeInfo strong{
+        font: 700 3.6rem Poppins;
+    }
+
+    .iconCoffee strong{
+        margin-left: 2rem;
+        font-size: 1.6rem;
+    }
+
+}
+
+@media(min-width:700px){
+    .fieldCoffee{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .coffee{
+        margin: 0 auto;
+        margin-left: 3.6rem;
+    }
+
+   .coffeeInfo span{
+        font-size: 3.4rem;
+        max-width: 300px;
+        line-height: 4rem;
+    }
+
+    .coffeeInfo strong{
+        font-size: 5.2rem;
+    }
+
+   .iconCoffee strong{
+        font-size: 2.4rem;
+    }
+}
+
+
+@media(min-width:1366px){
+    .fieldCoffee{
+        width: 45%;
+    }
+}
+
+
+
+@media(min-width:1600px){
+    .fieldCoffee{
+        width: 35%;
+    }
+
+}

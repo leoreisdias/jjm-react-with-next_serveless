@@ -1,0 +1,164 @@
+span .goUp{
+  margin-top: -1rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+span .goUp p{
+  margin-top: 1rem;
+}
+
+.pageFooter{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 1.4rem;
+    margin-top: auto;
+    flex-direction: column;
+    background: var(--color-background-footer);
+    height: 55rem;
+    width: 100%;
+
+    -webkit-box-shadow: 0px -3px 9px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px -3px 9px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px -3px 9px 0px rgba(50, 50, 50, 0.75);
+}
+
+.footerContent{
+    width: 90%;
+    justify-content: space-between;
+}
+.contact{
+  margin-bottom: 5rem;
+}
+.footerContent  a{
+   margin-top: 2.2rem;
+}
+
+.footerContent  a + a{
+   margin-left: 1.5rem;
+}
+
+.footerContent p{
+    max-width: 30rem;
+    font-size: 1.5rem;
+    line-height: 2.6rem;
+    color: black;
+    margin-top: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.footerContent  p span{
+    color: var(--color-line-in-white);
+    font-size: 1.4rem;
+}
+
+.pageFooter strong{
+  color: black;
+}
+
+
+
+  @keyframes fade {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  .pageFooter   img{
+    left: -100px;
+    position: absolute;
+    animation: linear infinite;
+    animation-name: run;
+    animation-duration: 5s;
+
+}
+
+
+  .footerContent {
+    margin-left: 3.6rem;
+}
+
+@keyframes run {
+    0% {
+      left: 0;
+      transform: translateX(0);
+    }
+    100% {
+      left: 100%;
+      transform: translateX(-100%);
+    }
+}
+
+
+.horoscopoIframe{
+  border: none;
+  height:300px;
+  margin-left: 10%;
+  margin-bottom: 10rem;
+}
+
+.footerContent p a{
+  color: white;
+  margin-right: 2rem;
+  font-size: 1.3rem;
+  margin-left: 2rem;
+  text-decoration: none;
+}
+
+.icon{
+  margin-left: -2rem;
+  background: white;
+  border-radius: 20%;
+  margin-right: 1rem;
+}
+
+.fbPage{
+  margin-top: 4rem;
+  -webkit-box-shadow: 0px -3px 9px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px -3px 9px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px -3px 9px 0px rgba(50, 50, 50, 0.75);
+}
+
+.copyright{
+  color: black;
+  margin-left: 5%;
+  margin-top: 2rem;
+}
+
+@media(min-width:700px){
+    .pageFooter{
+        height: 29rem;
+    }
+
+    .footerContent{
+        max-width: 1800px;
+        margin: 0 auto;
+        flex-direction: row;
+        align-items: center;
+        display: flex;
+    }
+
+    .horoscopoIframe{
+      overflow: hidden;
+      width: 100%;
+      height: 200px;
+      margin-left: 0;
+    }
+
+    .contact{
+      margin-bottom: 0rem;
+    }
+
+    .fbPage{
+      margin-top: 0;
+    }
+}

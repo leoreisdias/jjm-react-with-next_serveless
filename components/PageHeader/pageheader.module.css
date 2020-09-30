@@ -1,0 +1,277 @@
+.pageHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#dashboard{
+    background: var(--color-primary-darker);
+}
+
+#sportBoard{
+    background: linear-gradient(#61c035,#1d0c0c);
+}
+
+#reportsBoard{
+    background: linear-gradient(#bdc3c7,#1b2530);
+}
+
+#newsBoard{
+    background: linear-gradient(#8549a3,#300b0d);
+}
+
+#popBoard{
+    background: linear-gradient(#43cea2,#05121f);
+}
+
+#optionBoard{
+    background: linear-gradient(#141e30,#61045f );
+}
+
+.pageHeader .JJM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageHeader .JJM img{
+    width: 50%;
+}
+
+.pageHeader .headerContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    padding: 0.6rem;
+}
+
+.pageHeader .headerContent strong{
+    color: white;
+    font: 700 2.4rem Archivo;
+    margin-left: 2rem;
+    width: 100%;
+}
+
+@media(min-width:800px){
+    .pageHeader{
+        background: var(--color-primary-darker);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .pageHeader .JJM{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .pageHeader .JJM img{
+        width: 50%;
+        margin-left: 2rem;
+    }
+
+    .pageHeader .headerContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        padding: 0.6rem;
+    }
+
+    .pageHeader .headerContent strong{
+        color: white;
+        font: 700 2.8rem Archivo;
+        margin-left:0;
+        width: 50rem;
+        margin-right: 35rem;
+        position: relative;
+}
+
+}
+
+@media(min-width:1366px){
+    .pageHeader{
+        background: var(--color-primary-darker);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem;
+    }
+
+    .pageHeader .JJM{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-right: 26rem;
+    }
+
+    .pageHeader .JJM img{
+        width: 10%;
+        position: absolute;
+
+    }
+
+    .pageHeader .headerContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        padding: 0.6rem;
+    }
+
+    .pageHeader .headerContent strong{
+        color: white;
+        font: 700 3.2rem Archivo;
+        margin-left:0;
+        width: 100%;
+        margin-right: 40rem;
+        position: relative;
+    }
+
+}
+
+@media(min-width:1440px){
+    .pageHeader{
+        background: var(--color-primary-darker);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem;
+    }
+
+    .pageHeader .JJM{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-right: 30rem;
+    }
+
+    .pageHeader .JJM img{
+        width: 10%;
+        position: absolute;
+        margin-right: 0;
+    }
+
+    .pageHeader .headerContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        padding: 0.6rem;
+    }
+
+    .pageHeader .headerContent strong{
+        color: white;
+        font: 700 3.4rem Archivo;
+        margin-left:0;
+        width: 60rem;
+        margin-right: 30rem;
+        position: relative;
+        padding: 1.4rem;
+    }
+
+}
+
+@media(min-width:1600px){
+    .pageHeader{
+        background: var(--color-primary-darker);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 6rem;
+    }
+
+    .pageHeader .JJM{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-right: 30rem;
+    }
+
+    .pageHeader .JJM img{
+        width: 9%;
+        position: absolute;
+        margin-right: 0;
+    }
+
+    .pageHeader .headerContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        padding: 0.6rem;
+    }
+
+    .pageHeader .headerContent strong{
+        color: white;
+        font: 700 3.4rem Archivo;
+        margin-left:0;
+        width: 70rem;
+        margin-right: 40rem;
+        position: relative;
+        padding: 0rem;
+    }
+
+}
+
+@media(min-width:1920px){
+    .pageHeader{
+        background: var(--color-primary-darker);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 6rem;
+    }
+
+    .pageHeader .JJM{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-right: 30rem;
+    }
+
+    .pageHeader .JJM img{
+        width: 8%;
+        position: absolute;
+        margin-right: 0;
+    }
+
+    .pageHeader .headerContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        padding: 0.6rem;
+    }
+
+    .pageHeader .headerContent strong{
+        color: white;
+        font: 700 4.2rem Archivo;
+        margin-left:0;
+        width: 80rem;
+        margin-right: 50rem;
+        position: relative;
+    }
+
+}

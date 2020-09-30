@@ -1,0 +1,155 @@
+.sectionTitle{
+    font: 700 2rem Archivo;
+    color: var(--color-text-title);
+    margin-bottom: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    border-bottom: 1px solid var(--color-text-complement);
+    text-align: center;
+    max-width: 90%;
+    margin: 5rem auto;
+}
+
+.partnersVideo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    margin-right: auto;
+    border: 1px solid var(--color-text-complement);
+    border-radius: 10px;
+    width: 93%;
+    margin-bottom: 10rem;
+
+}
+
+.legendPartner{
+    font: 700 2rem Archivo;
+    margin: auto;
+    margin-bottom: 2rem;
+    max-width: 100%;
+    text-align: center;
+    color: rgb(5, 5, 126);
+    text-decoration: underline;
+}
+
+.legendPartner a{
+    text-decoration: none;
+    color: rgb(5, 5, 126);
+}
+
+.imagePartner{
+    margin: 1rem auto;
+    width: 90%;
+    max-height: 50%;
+    padding: 0.5rem;
+
+    -webkit-box-shadow: -1px 0px 10px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    -1px 0px 10px 0px rgba(50, 50, 50, 0.5);
+    box-shadow:         -1px 0px 10px 0px rgba(50, 50, 50, 0.5);
+}
+
+.commercial{
+    max-width: 100%;
+    margin: auto;
+    height: 20rem;
+    margin-bottom: 4rem;
+
+    -webkit-box-shadow: -1px 0px 10px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    -1px 0px 10px 0px rgba(50, 50, 50, 0.5);
+    box-shadow:         -1px 0px 10px 0px rgba(50, 50, 50, 0.5);
+}
+
+.desc{
+    font: 400 1.8rem Archivo;
+    line-height: 2.2rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.imgText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    text-decoration: none;
+    font: 400 1.6rem Poppins;
+    background-color: rgb(189, 17, 17);
+    color: white;
+    padding: 1rem 1rem;
+    border-radius: 15px;
+    
+
+    -webkit-box-shadow: -1px 0px 10px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    -1px 0px 10px 0px rgba(50, 50, 50, 0.5);
+    box-shadow:         -1px 0px 10px 0px rgba(50, 50, 50, 0.5);
+}
+
+.link:hover{
+    background-color: rgb(243, 128, 128);
+    color: black;
+}
+
+.desc h2{
+    font-size: 3rem;
+    color: blue;
+}
+
+@media(min-width:800px){  
+
+.partnersVideo{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10rem;
+}
+
+.sectionTitle{
+    font: 700 2.6rem Archivo;
+    max-width: 60%;
+}
+
+.commercial{
+    width: 50rem;
+    height: 30rem;
+}
+
+.legendPartner{
+    font: 700 2.4rem Archivo;
+}
+
+.desc{
+    margin-top: 2.2rem;
+    font-size: 2.2rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.imagePartner{
+    margin-left: 5%;
+    max-width: 45rem;
+    width: 40rem;
+    max-height: 40rem;
+}
+
+.imgText{
+    flex-direction: row;
+}
+
+.imgText span{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.link{
+    font: 400 2.4rem Poppins;
+    border-radius: 15px;
+    text-align: center;
+}
+}

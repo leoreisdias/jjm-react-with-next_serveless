@@ -1,0 +1,146 @@
+#pageLanding{
+    width: 700px;
+    height:800px;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--color-text-title);
+    background: var(--color-primary-lighter)
+
+}
+
+.logoContainer img{
+    height: 30rem;
+    width: 30rem;
+    animation-name: fade;
+    animation-duration: 1000ms;
+}
+
+
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+.logoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3.2rem;
+}
+
+.logoContainer h2{
+    font-weight: 500;
+    font-size: 2.7rem;
+    line-height: 5.0rem;
+    margin-top: 0.8rem;
+}
+
+.buttonsContainer{
+    display: flex;
+    justify-content: center;
+    margin: 3.2rem 0;
+}
+
+.buttonsContainer a{
+    width: 20rem;
+    height: 8rem;
+    border-radius: 0.8rem;
+    font: 700 2.0rem Archivo;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    color: var(--color-button-text);
+
+    transition: background-color 0.2s;
+}
+
+.buttonsContainer a:first-child{
+    margin-right: 1.6rem;
+}
+
+.buttonsContainer a img{
+    width: 4rem;
+}
+
+.buttonsContainer a.study{
+    background: var(--color-text-title);
+}
+
+
+.buttonsContainer a.study:hover{
+    background: var(--color-button-pages);
+}
+
+.buttonsContainer  a img{
+    margin-right: 2.4rem;
+}
+
+.totalConnections{
+    font-size: 1.4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.totalConnections img{
+    margin-left: 0.8rem;
+}
+
+@media(min-width:700px){
+    #pageLanding{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #pageLanding-content{
+        max-width: 1100px;
+
+        flex-direction: row;
+
+    }
+
+    .logoContainer{
+        align-self: center;
+        text-align: initial;
+        margin: 0;
+    }
+
+    .logoContainer h2{
+        text-align: initial;
+        font-size: 4.0rem;
+    }
+
+    .logoContainer img{
+        height: 40rem;
+        width: 40rem;
+        margin-bottom: 5rem;
+    }
+
+    .buttonsContainer{
+        justify-content: center;
+    }
+
+    .buttonsContainer a{
+        font-size: 2.0rem;
+    }
+
+    .totalConnections{
+        grid-area: total;
+        justify-self: start;
+    }
+}
