@@ -1,6 +1,6 @@
 # News Website - Jornal Jota Maria
 
-Access: [Jornal Jota Maria](https://www.jornaljotamaria.com.br/dashboard)
+## Access: [Jornal Jota Maria](https://www.jornaljotamaria.com.br/dashboard)
 
 <hr />
 In the beginning it was developed with React Typescript only, but I migrated to "Next" for the purpose to alter the Open Graph Meta Tags dynamically for social media sharing.
@@ -11,7 +11,7 @@ In the beginning it was developed with React Typescript only, but I migrated to 
 
 <hr />
 
-Repo of the project without "Next": [JJM without Next](https://github.com/leoreisdias/jjm-react_ts_without_next)
+## Repo of the project without "Next": [JJM without Next](https://github.com/leoreisdias/jjm-react_ts_without_next)
 
 <strong>More:</strong>
 
