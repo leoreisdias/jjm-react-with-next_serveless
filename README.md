@@ -1,4 +1,4 @@
-# News Website - Jornal Jota Maria
+# News Website - Jornal Jota Maria (Frontend only)
 
 ## Access: [Jornal Jota Maria](https://www.jornaljotamaria.com.br/dashboard)
 
@@ -18,3 +18,5 @@ In the beginning it was developed with React Typescript only, but I migrated to 
 <img src="https://github.com/leoreisdias/jjm-react-with-next_serveless/blob/master/public/jjm(1).png?raw=true" with="500" />
 <img src="https://github.com/leoreisdias/jjm-react-with-next_serveless/blob/master/public/jjm(2).png?raw=true" width="500" />
 <img src="https://github.com/leoreisdias/jjm-react-with-next_serveless/blob/master/public/jjm(3).png?raw=true" width="500" />
+
+## Repo of the First Prototype with Backend Codes: [JJM with Backend](https://github.com/leoreisdias/jjm-git)
